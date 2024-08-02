@@ -45,9 +45,9 @@ window.onload = function() {
   // formats like MGH/MGZ
   volume.file = 'volume.nii';
   // we also attach a label map to show segmentations on a slice-by-slice base
-  //volume.labelmap.file = 'http://x.babymri.org/?seg.nrrd';
+  //volume.labelmap.file = 'https://x.babymri.org/?seg.nrrd';
   // .. and use a color table to map the label map values to colors
-  //volume.labelmap.colortable.file = 'http://x.babymri.org/?genericanatomy.txt';
+  //volume.labelmap.colortable.file = 'https://x.babymri.org/?genericanatomy.txt';
   
   // add the volume in the main renderer
   // we choose the sliceX here, since this should work also on

@@ -73,7 +73,7 @@ html,body {
 
 .onair {
   /*
-  http://cssdemos.tupence.co.uk/text-shadow.htm
+  https://cssdemos.tupence.co.uk/text-shadow.htm
    */
 /*Use shadows to slowly build up the glow. The first shadow should be the colour of the text. Subsequent shadows are the colour you want the glow to be, all with no x or y offset and with increasing amounts of blur (the number of shadows you use depends on how big you want the glow to be).*/
 

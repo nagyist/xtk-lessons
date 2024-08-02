@@ -2,7 +2,7 @@ sizeContent = function() {
   var totalSummariesHeight = document.body.clientHeight;
   
   // on air
-  //http://stackoverflow.com/questions/10787782/full-height-of-a-html-element-div-including-border-padding-and-margin
+  //https://stackoverflow.com/questions/10787782/full-height-of-a-html-element-div-including-border-padding-and-margin
   var livereslice = document.getElementById("livereslice");
   totalSummariesHeight -= parseInt(document.defaultView.getComputedStyle(livereslice, '').getPropertyValue('height'));
   totalSummariesHeight -= parseInt(document.defaultView.getComputedStyle(livereslice, '').getPropertyValue('margin-top')) + parseInt(document.defaultView.getComputedStyle(livereslice, '').getPropertyValue('margin-bottom'));
@@ -30,7 +30,7 @@ sizeContent = function() {
   }
 }
 
-//http://stackoverflow.com/questions/16751345/html5-automatically-close-all-the-other-details-tags-after-opening-a-specifi
+//https://stackoverflow.com/questions/16751345/html5-automatically-close-all-the-other-details-tags-after-opening-a-specifi
 indexContent = function(elm){
   var nodes = elm.parentNode.childNodes, node;
   var i = 0, count = i;
@@ -423,7 +423,7 @@ window.onload = function() {
   // create a X.volume
   volume = new X.volume();
   // .. and attach a volume
-  // volume.file = 'http://x.babymri.org/?lesson17.nii.gz';
+  // volume.file = 'https://x.babymri.org/?lesson17.nii.gz';
   volume.file = 'daniel.nii';
 
   // only add the volume for now, the mesh gets loaded on request

@@ -5,7 +5,7 @@ window.onload = function() {
   r.init();
   
   // create some CSG primitives.. this is by the way an official example
-  // of CSG by Evan Wallace (http://evanw.github.com/csg.js/)
+  // of CSG by Evan Wallace (https://evanw.github.com/csg.js/)
   var cube = new X.cube();
   // the cube is red
   cube.color = [1, 0, 0];
