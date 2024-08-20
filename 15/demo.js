@@ -50,7 +50,7 @@ window.onload = function() {
 
     // we also add the 'fake' .DCM extension since else wise
     // XTK would think .org is the extension
-    return 'https://x.babymri.org/?' + v + '&.DCM';
+    return 'https://fly.cs.umb.edu/data/X/mybrain/' + v + '.dcm';
     
   });
   
